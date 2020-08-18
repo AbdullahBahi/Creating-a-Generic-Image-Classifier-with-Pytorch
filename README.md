@@ -1,4 +1,4 @@
-# Creating-a-Generic-Image-Classifier-with-Pytorch
+# Generic-Image-Classifier-Using-Pytorch
 
 In this project, I used transfer learning to re-train a pre-trained image classifier to classify flower names. **Transfer Learning** technique gives the advantage of using the efficient feature extractor architectures that is trained on very large datasets such as **COCO** and **ImageNet**. all what we need to do is replace the tail of the neural network architecture (the classifier layers) with custom layers and only train this custom layers to classify the desired images. For this purpose, we need to prepare a dataset for our classifier to train on.  
   
